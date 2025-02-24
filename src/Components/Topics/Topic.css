@@ -1,0 +1,29 @@
+.topic{
+    margin-top: 40px;
+}
+.topic h1{
+    text-align: center;
+}
+.topic_list{
+    display: flex;
+    gap:20px;
+    place-content: center;
+    margin-top: 15px;
+}
+.topic_list_item .name{
+    display: inline-block;
+    background: #edebeb;
+    width:130px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.topic_list_item .name p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.active{
+    border: 2px solid rgb(170,1,170);
+    border-radius: 30px;
+}

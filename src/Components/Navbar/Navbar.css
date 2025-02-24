@@ -1,0 +1,39 @@
+ /*
+ 1rem = 16px
+ 1vh = 9px
+ */
+.navbar{
+    height: 50px;
+    width:80%;
+    padding-inline: 40px;
+    place-items: center;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 5rem;
+}
+.link ul{
+    display: flex;
+    gap:15px;
+
+}
+.link ul li{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.link ul li:hover{
+    color:red;
+}
+.subscribtion button{
+     background:-webkit-linear-gradient(rgb(188,12,241),rgb(212,4,4));
+     border:none;
+     padding:.6rem 1.5rem;  /*rem = 16px*/
+     border-radius: 30px;
+     font-weight: 600;
+
+}

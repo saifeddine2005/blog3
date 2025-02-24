@@ -1,0 +1,137 @@
+.blog_details{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   
+}
+.blog_details_left{
+    margin-top: 18rem;
+    width: 30%;
+}
+.popular_post .post img{
+    width: 200px;
+    height: 160px; 
+}
+.popular_post .post {
+    margin-top: 20px;
+}
+.author_name_date{
+    display: flex;
+    gap:15px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.author_name_date .name span{
+    color: red;  
+}
+.author_name_date .date_written{
+    color: #666;
+} 
+.blog_details_right{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    padding-inline: 50px;
+    margin-top: 40px;
+}
+.detail_category{
+   display: inline-block;
+   width: 6rem;
+   height: 2rem;
+   color: #fff;
+   background: purple;
+}
+.detail_category p{
+   text-align: center;
+   margin-top: 5px;
+   font-size: 18px;
+   font-style: italic;
+}
+.blog_title{
+  font-size: 55px;
+}
+.author_date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.author_date p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.author{
+    display: flex;
+    gap:10px;
+    margin-top:15px;
+}
+.blog_details_right .author img{
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    object-fit: cover;
+}
+.author p{
+    font-size:18px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #666;
+}
+.blog_details_right img{
+    width:900px;
+    height: 700px;
+  
+}
+.blog_details_left h2{
+    margin-bottom: 35px;
+}
+.blog_details_left h2::before{
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 3px;
+    margin-top: 38px;
+    background-color: rgb(250,85,250);
+}
+.comment{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.comment_header{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.comment_details{
+    display: flex;
+    gap:20px;
+}
+.comment_details input{
+    width: 93%;
+    padding: 10px;
+
+}
+textarea{
+    margin-top: 20px;
+    height: 150px;
+    width: 95%;
+
+}
+.check{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+.comment button{
+    border: none;
+    padding: .9rem 3rem;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #fff;
+    background:-webkit-linear-gradient(rgb(188,12,241),rgb(212,4,4));
+}

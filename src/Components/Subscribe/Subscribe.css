@@ -1,0 +1,37 @@
+ /*
+ 1rem = 16px
+ 1vh = 9px
+ */
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    width: 80%; 
+    height: 20vh;
+    gap:9rem;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-top: 4rem;
+    box-shadow: 0px 5px 32px rgba(0,0,0,0.15);
+}
+.left h2{
+    font-size: 25px;
+
+}
+.left  .right{
+    padding: 40px;
+}
+.right input{
+     width: 24rem;
+     padding: 15px;
+     border-radius: 30px;
+     border:1px solid #ccc;
+}
+.subscribe .right button{
+    padding:15px;
+    width:8rem; 
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+    background: -webkit-linear-gradient(rgb(188,12,241),rgb(212,4,4));
+}
